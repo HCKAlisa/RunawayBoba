@@ -20,13 +20,29 @@ ABoboBall::ABoboBall()
 	StaticMesh->SetupAttachment(SphereComponent);
 	StaticMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
+
+
+	DirtLevel=0;
+	MaxDirtLevel = 100;
+	
+}
+
+void ABoboBall::AddDirt(float DirtAdded)
+{
+	const float OldDirtPercent = DirtLevel/MaxDirtLevel;
+	DirtLevel =  FMath::Clamp(DirtLevel + DirtAdded, 0, MaxDirtLevel);
+	const float NewDirtPercent = DirtLevel/MaxDirtLevel;
+	if(DirtChange.IsBound())
+	{
+		DirtChange.Broadcast(OldDirtPercent,NewDirtPercent);
+	}
 }
 
 // Called when the game starts or when spawned
 void ABoboBall::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	DirtLevel=0;
 }
 
 // Called every frame

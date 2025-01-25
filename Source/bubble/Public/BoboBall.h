@@ -31,7 +31,10 @@ public:
 
 	UPROPERTY(BlueprintAssignable,BlueprintCallable)
 	FDirtChange DirtChange;
-	
+
+
+	UFUNCTION(BlueprintCallable)
+	void AddDirt(float DirtAdded);
 	
 protected:
 	// Called when the game starts or when spawned
