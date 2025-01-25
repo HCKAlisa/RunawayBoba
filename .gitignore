@@ -15,16 +15,9 @@ AutoBuildLogs/
 lfs/
 hooks/
 /Binaries/
-
-# Wwise Project
-Wwise/IncrementalSoundBankData.xml
-Wwise/.cache/
-Wwise/.backup/
-Wwise/*.akd
-Wwise/*.akpk
-Wwise/*.prof
-Wwise/*.validationcache
-Wwise/*.wsettings
+/Plugins/**/Binaries
+/Plugins/**/Intermediate
+/Plugins/**/ASCCache
 
 # Fmod Project
 FMOD/.user/

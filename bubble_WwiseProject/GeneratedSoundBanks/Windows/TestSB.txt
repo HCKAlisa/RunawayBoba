@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	576110586	Test1			\Default Work Unit\Test1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	635918534	BG Footsteps Dirt	E:\Documents\Unreal Projects\bubbleTea\bubble\bubble_WwiseProject\.cache\B9\{B906D810-D0B0-51AF-B12C-00E9582894DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BG Footsteps Dirt		18114656
+
