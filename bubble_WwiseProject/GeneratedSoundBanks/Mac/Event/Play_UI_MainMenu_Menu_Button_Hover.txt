@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2412436339	Play_UI_MainMenu_Menu_Button_Hover			\UI\UI_MainMenu\Play_UI_MainMenu_Menu_Button_Hover	
+

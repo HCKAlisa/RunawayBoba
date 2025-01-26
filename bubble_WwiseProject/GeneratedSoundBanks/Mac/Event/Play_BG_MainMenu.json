@@ -1,0 +1,106 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1718235948",
+    "Type": "Event",
+    "GUID": "{023A3F89-8651-4F24-9120-2B6389129D3A}",
+    "Language": "SFX",
+    "Hash": "{4E0E23CD-2E07-67C3-6C9B-355531C9D91D}",
+    "ObjectPath": "Play_BG_MainMenu",
+    "ShortName": "Play_BG_MainMenu",
+    "Path": "Event/Play_BG_MainMenu.bnk",
+    "Media": [
+     {
+      "Id": "379829828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_MainMenu_Specs_Bubbles_M_02.wav",
+      "Path": "Media/379829828.wem",
+      "CachePath": "45/{45D8D69F-7829-8C17-AE3E-F3E75DABA018}.wem"
+     },
+     {
+      "Id": "441957696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_MainMenu_Specs_Bubbles_M_04.wav",
+      "Path": "Media/441957696.wem",
+      "CachePath": "2E/{2E291F85-B10A-63B6-E0D5-651013B3A676}.wem"
+     },
+     {
+      "Id": "595347033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_MainMenu_Specs_Bubbles_M_01.wav",
+      "Path": "Media/595347033.wem",
+      "CachePath": "E7/{E7C87167-FD80-C0AA-E906-B3248BC73FFF}.wem"
+     },
+     {
+      "Id": "775032539",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "AMB_MainMenu_ST_LP_HIGH.wav",
+      "Path": "Media/775032539.wem",
+      "CachePath": "FF/{FFBA5228-68B4-9246-3D0B-7C07FECEBF7F}.wem"
+     },
+     {
+      "Id": "808823956",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "AMB_MainMenu_ST_LP_LOW.wav",
+      "Path": "Media/808823956.wem",
+      "CachePath": "12/{12592D12-1750-5D8C-2BCD-F1306065728C}.wem"
+     },
+     {
+      "Id": "1017348083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_MainMenu_Specs_Bubbles_M_03.wav",
+      "Path": "Media/1017348083.wem",
+      "CachePath": "77/{777F4125-D3E4-B5F2-D473-F6B1E66D5782}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1718235948",
+      "Name": "Play_BG_MainMenu",
+      "ObjectPath": "\\Events\\BG\\BG_MainMenu\\Play_BG_MainMenu",
+      "GUID": "{023A3F89-8651-4F24-9120-2B6389129D3A}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "379829828"
+       },
+       {
+        "Id": "441957696"
+       },
+       {
+        "Id": "595347033"
+       },
+       {
+        "Id": "775032539"
+       },
+       {
+        "Id": "808823956"
+       },
+       {
+        "Id": "1017348083"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2DF0D4A8-3D4F-1B45-DBD3-147CA3952BEE}"
+ }
+}

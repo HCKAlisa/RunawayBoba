@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1547984248	Play_UI_MainMenu_Menu_Quit_Select			\UI\UI_MainMenu\Play_UI_MainMenu_Menu_Quit_Select	
+

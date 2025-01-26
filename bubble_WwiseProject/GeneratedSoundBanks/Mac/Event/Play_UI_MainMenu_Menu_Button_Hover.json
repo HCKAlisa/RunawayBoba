@@ -1,0 +1,144 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2412436339",
+    "Type": "Event",
+    "GUID": "{B7E5C7EB-EF84-4E99-B4A8-58F4E1A9D05E}",
+    "Language": "SFX",
+    "Hash": "{BD21C9FE-3D63-DD9C-5CC4-A178F3D666D2}",
+    "ObjectPath": "Play_UI_MainMenu_Menu_Button_Hover",
+    "ShortName": "Play_UI_MainMenu_Menu_Button_Hover",
+    "Path": "Event/Play_UI_MainMenu_Menu_Button_Hover.bnk",
+    "Media": [
+     {
+      "Id": "27621598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_06.wav",
+      "Path": "Media/27621598.wem",
+      "CachePath": "FC/{FC6FE7C3-DF23-965B-6EC2-0DAFEAF0D460}.wem"
+     },
+     {
+      "Id": "34072877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_08.wav",
+      "Path": "Media/34072877.wem",
+      "CachePath": "73/{73EAEBE8-4169-22AF-0D5F-D2F810F148CF}.wem"
+     },
+     {
+      "Id": "146541535",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_07.wav",
+      "Path": "Media/146541535.wem",
+      "CachePath": "93/{9372C008-D9D8-7C3D-CD08-5AB097CF08C3}.wem"
+     },
+     {
+      "Id": "196910082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_02.wav",
+      "Path": "Media/196910082.wem",
+      "CachePath": "38/{383360DE-36CC-7495-253E-19EB4967DD6C}.wem"
+     },
+     {
+      "Id": "278793107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_05.wav",
+      "Path": "Media/278793107.wem",
+      "CachePath": "77/{77AB2F2D-FC77-41A1-DE67-07715B7E1CAB}.wem"
+     },
+     {
+      "Id": "742990947",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_04.wav",
+      "Path": "Media/742990947.wem",
+      "CachePath": "92/{9297B3AA-650C-3231-F41E-9F563A7401AE}.wem"
+     },
+     {
+      "Id": "750920352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_03.wav",
+      "Path": "Media/750920352.wem",
+      "CachePath": "59/{59F1F176-F6D3-7291-506E-3EE5C3518975}.wem"
+     },
+     {
+      "Id": "836004725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_09.wav",
+      "Path": "Media/836004725.wem",
+      "CachePath": "99/{9992683A-9A8E-E2B1-FA9A-46B100C4F18F}.wem"
+     },
+     {
+      "Id": "967144250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Hover_ST_01.wav",
+      "Path": "Media/967144250.wem",
+      "CachePath": "BD/{BD24D1B8-E812-593E-F771-4444E966029F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2412436339",
+      "Name": "Play_UI_MainMenu_Menu_Button_Hover",
+      "ObjectPath": "\\Events\\UI\\UI_MainMenu\\Play_UI_MainMenu_Menu_Button_Hover",
+      "GUID": "{B7E5C7EB-EF84-4E99-B4A8-58F4E1A9D05E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.43145832",
+      "DurationMax": "0.65",
+      "MediaRefs": [
+       {
+        "Id": "27621598"
+       },
+       {
+        "Id": "34072877"
+       },
+       {
+        "Id": "146541535"
+       },
+       {
+        "Id": "196910082"
+       },
+       {
+        "Id": "278793107"
+       },
+       {
+        "Id": "742990947"
+       },
+       {
+        "Id": "750920352"
+       },
+       {
+        "Id": "836004725"
+       },
+       {
+        "Id": "967144250"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A794FE65-8658-721D-156F-3277E1A15601}"
+ }
+}

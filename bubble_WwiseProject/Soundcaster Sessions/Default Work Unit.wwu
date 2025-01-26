@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F84FD532-2C0D-4F9D-9F42-785D12ADA21D}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{F84FD532-2C0D-4F9D-9F42-785D12ADA21D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F84FD532-2C0D-4F9D-9F42-785D12ADA21D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="test" ID="{901CC45B-9655-400B-BD0F-792BB1FA6FC5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_BG_MainMenu" ID="{023A3F89-8651-4F24-9120-2B6389129D3A}" WorkUnitID="{56D48FC5-910A-4BAD-BB1A-8ABED0045D43}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_UI_MainMenu_Menu_Start_Select" ID="{36B78FF3-3D2B-41AE-8BA6-1C1CCDA880FE}" WorkUnitID="{A1CEC2E2-5C7C-4834-8901-918A0D6878D4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_UI_MainMenu_Menu_Button_Hover" ID="{B7E5C7EB-EF84-4E99-B4A8-58F4E1A9D05E}" WorkUnitID="{A1CEC2E2-5C7C-4834-8901-918A0D6878D4}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_UI_MainMenu_Menu_Button_Select" ID="{B2F43696-F10A-4D91-8174-F4CCD06F79B4}" WorkUnitID="{A1CEC2E2-5C7C-4834-8901-918A0D6878D4}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1290796954	Stop_BG_MainMenu			\BG\BG_MainMenu\Stop_BG_MainMenu	
+

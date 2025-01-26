@@ -16,7 +16,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_UI_MainMenu_Menu_Quit_Select_ST" ID="{9DF7D7A9-7A3C-434A-BA44-DB97C52386F1}">
+						<Event Name="Play_UI_MainMenu_Menu_Quit_Select" ID="{9DF7D7A9-7A3C-434A-BA44-DB97C52386F1}">
 							<ChildrenList>
 								<Action Name="" ID="{4DA36D55-53E3-43B1-A67F-FBC66935FDFF}" ShortID="1036424391">
 									<ReferenceList>
@@ -33,6 +33,27 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_MainMenu_Menu_Button_Hover" ID="{C4B583D9-EDD6-44EE-A7E7-92023CCA5226}" WorkUnitID="{87FD68B3-BDA3-4BD0-A1CF-856D37BDC684}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_MainMenu_Menu_Start_Select" ID="{36B78FF3-3D2B-41AE-8BA6-1C1CCDA880FE}">
+							<ChildrenList>
+								<Action Name="" ID="{4602347F-D1E3-49A2-AF7A-85965739334A}" ShortID="356851677">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MainMenu_Menu_Button_Select" ID="{88EF95A6-91A2-453C-A08B-BC5D90A689AD}" WorkUnitID="{87FD68B3-BDA3-4BD0-A1CF-856D37BDC684}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ECF5743C-82BA-403A-AAA4-66B0C5DCC8CC}" ShortID="802248244">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG_MainMenu" ID="{E55EE139-567E-499F-8AC2-A3C7311D643F}" WorkUnitID="{9FCA3EC9-EB69-4A1B-9DA8-B4F084E5516E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3657189267",
+    "Type": "Event",
+    "GUID": "{B2F43696-F10A-4D91-8174-F4CCD06F79B4}",
+    "Language": "SFX",
+    "Hash": "{17A16581-D62A-E8B8-0D70-7754F1A5E611}",
+    "ObjectPath": "Play_UI_MainMenu_Menu_Button_Select",
+    "ShortName": "Play_UI_MainMenu_Menu_Button_Select",
+    "Path": "Event/Play_UI_MainMenu_Menu_Button_Select.bnk",
+    "Media": [
+     {
+      "Id": "283593541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Select_ST_01.wav",
+      "Path": "Media/283593541.wem",
+      "CachePath": "1E/{1E6C1A00-E224-B692-80A0-FE51CFEA945C}.wem"
+     },
+     {
+      "Id": "713426880",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Select_ST_03.wav",
+      "Path": "Media/713426880.wem",
+      "CachePath": "53/{53675259-8A17-1AB6-1985-3AB569D66572}.wem"
+     },
+     {
+      "Id": "932776296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Select_ST_02.wav",
+      "Path": "Media/932776296.wem",
+      "CachePath": "51/{5122CE55-7CA2-3734-0BCF-F5CA60907D30}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3657189267",
+      "Name": "Play_UI_MainMenu_Menu_Button_Select",
+      "ObjectPath": "\\Events\\UI\\UI_MainMenu\\Play_UI_MainMenu_Menu_Button_Select",
+      "GUID": "{B2F43696-F10A-4D91-8174-F4CCD06F79B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1300416",
+      "DurationMax": "2.3107293",
+      "MediaRefs": [
+       {
+        "Id": "283593541"
+       },
+       {
+        "Id": "713426880"
+       },
+       {
+        "Id": "932776296"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C43066D5-2583-9A20-0C75-8D020A78B45D}"
+ }
+}

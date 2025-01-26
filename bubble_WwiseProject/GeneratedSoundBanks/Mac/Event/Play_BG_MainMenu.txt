@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1718235948	Play_BG_MainMenu			\BG\BG_MainMenu\Play_BG_MainMenu	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	775032539	AMB_MainMenu_ST_LP_HIGH	C:\Users\Edward\Documents\_Unreal Projects\bubbleTea\bubble_WwiseProject\.cache\FF\{FFBA5228-68B4-9246-3D0B-7C07FECEBF7F}.wem	775032539.wem	\Actor-Mixer Hierarchy\BG\BG_MainMenu\AMB_MainMenu_ST_LP_HIGH	
+	808823956	AMB_MainMenu_ST_LP_LOW	C:\Users\Edward\Documents\_Unreal Projects\bubbleTea\bubble_WwiseProject\.cache\12\{12592D12-1750-5D8C-2BCD-F1306065728C}.wem	808823956.wem	\Actor-Mixer Hierarchy\BG\BG_MainMenu\AMB_MainMenu_ST_LP_LOW	
+

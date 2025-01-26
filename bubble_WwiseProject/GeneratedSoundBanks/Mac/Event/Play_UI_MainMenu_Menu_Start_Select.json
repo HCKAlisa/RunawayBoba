@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "89773499",
+    "Type": "Event",
+    "GUID": "{36B78FF3-3D2B-41AE-8BA6-1C1CCDA880FE}",
+    "Language": "SFX",
+    "Hash": "{987B9C66-4237-0306-4BCD-5D2CCEB532D1}",
+    "ObjectPath": "Play_UI_MainMenu_Menu_Start_Select",
+    "ShortName": "Play_UI_MainMenu_Menu_Start_Select",
+    "Path": "Event/Play_UI_MainMenu_Menu_Start_Select.bnk",
+    "Media": [
+     {
+      "Id": "283593541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Select_ST_01.wav",
+      "Path": "Media/283593541.wem",
+      "CachePath": "1E/{1E6C1A00-E224-B692-80A0-FE51CFEA945C}.wem"
+     },
+     {
+      "Id": "713426880",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Select_ST_03.wav",
+      "Path": "Media/713426880.wem",
+      "CachePath": "53/{53675259-8A17-1AB6-1985-3AB569D66572}.wem"
+     },
+     {
+      "Id": "932776296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_MainMenu_Menu_Button_Select_ST_02.wav",
+      "Path": "Media/932776296.wem",
+      "CachePath": "51/{5122CE55-7CA2-3734-0BCF-F5CA60907D30}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "89773499",
+      "Name": "Play_UI_MainMenu_Menu_Start_Select",
+      "ObjectPath": "\\Events\\UI\\UI_MainMenu\\Play_UI_MainMenu_Menu_Start_Select",
+      "GUID": "{36B78FF3-3D2B-41AE-8BA6-1C1CCDA880FE}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1300416",
+      "DurationMax": "2.3107293",
+      "MediaRefs": [
+       {
+        "Id": "283593541"
+       },
+       {
+        "Id": "713426880"
+       },
+       {
+        "Id": "932776296"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{606FA642-840C-6A40-A606-084632385A93}"
+ }
+}
