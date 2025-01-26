@@ -7,7 +7,7 @@
 #include "BoboBall.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FDirtChange , float ,OldPercent,float,NewPercent);
-
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FGameOverCon ,bool ,bWin,float,DirtPercent);
 UCLASS()
 class BUBBLE_API ABoboBall : public AActor
 {
@@ -35,6 +35,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void AddDirt(float DirtAdded);
+
+	UPROPERTY(BlueprintAssignable,BlueprintCallable)
+	FGameOverCon GameOverCon;
+
+	UFUNCTION(BlueprintCallable)
+	void GameOverFunction();
 	
 protected:
 	// Called when the game starts or when spawned
