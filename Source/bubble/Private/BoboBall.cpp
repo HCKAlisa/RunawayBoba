@@ -36,6 +36,21 @@ void ABoboBall::AddDirt(float DirtAdded)
 	{
 		DirtChange.Broadcast(OldDirtPercent,NewDirtPercent);
 	}
+	if(FMath::IsNearlyEqual(DirtLevel,MaxDirtLevel))
+	{
+		if(GameOverCon.IsBound())
+		{
+			GameOverCon.Broadcast(false,DirtLevel);
+		}
+	}
+}
+
+void ABoboBall::GameOverFunction()
+{
+	if(GameOverCon.IsBound())
+	{
+		GameOverCon.Broadcast(true,DirtLevel);
+	}
 }
 
 // Called when the game starts or when spawned
