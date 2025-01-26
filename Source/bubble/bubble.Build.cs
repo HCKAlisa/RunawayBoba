@@ -14,7 +14,16 @@ public class bubble : ModuleRules
 			"InputCore",
 			"EnhancedInput",
 			"UMG",
-			"CommonUI"
+			"CommonUI",
+			"MoviePlayer",
+			"MediaAssets",
+			"Slate",
+			"SlateCore",
+			"AudioMixer",
+			"DeveloperSettings",
+			"RHI",
+			"RenderCore",
+			"GameplayTags"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
