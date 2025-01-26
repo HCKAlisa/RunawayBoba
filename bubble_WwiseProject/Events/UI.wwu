@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1CEC2E2-5C7C-4834-8901-918A0D6878D4}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="UI" ID="{A1CEC2E2-5C7C-4834-8901-918A0D6878D4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI_MainMenu" ID="{37FD588C-6507-4022-BA59-33CE64C5EF12}" ShortID="147262682">
+					<ChildrenList>
+						<Event Name="Play_UI_MainMenu_Menu_Button_Select" ID="{B2F43696-F10A-4D91-8174-F4CCD06F79B4}">
+							<ChildrenList>
+								<Action Name="" ID="{2105783A-7E02-4525-891F-F971781608A5}" ShortID="325059756">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MainMenu_Menu_Button_Select" ID="{88EF95A6-91A2-453C-A08B-BC5D90A689AD}" WorkUnitID="{87FD68B3-BDA3-4BD0-A1CF-856D37BDC684}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_MainMenu_Menu_Quit_Select_ST" ID="{9DF7D7A9-7A3C-434A-BA44-DB97C52386F1}">
+							<ChildrenList>
+								<Action Name="" ID="{4DA36D55-53E3-43B1-A67F-FBC66935FDFF}" ShortID="1036424391">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MainMenu_Menu_Quit_Select_ST" ID="{2EB335B9-F733-4B60-8ADF-0DCE50E538F7}" WorkUnitID="{87FD68B3-BDA3-4BD0-A1CF-856D37BDC684}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_MainMenu_Menu_Button_Hover" ID="{B7E5C7EB-EF84-4E99-B4A8-58F4E1A9D05E}">
+							<ChildrenList>
+								<Action Name="" ID="{0B72E01A-4E25-4850-995A-D3F5E121ADA8}" ShortID="888903443">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MainMenu_Menu_Button_Hover" ID="{C4B583D9-EDD6-44EE-A7E7-92023CCA5226}" WorkUnitID="{87FD68B3-BDA3-4BD0-A1CF-856D37BDC684}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

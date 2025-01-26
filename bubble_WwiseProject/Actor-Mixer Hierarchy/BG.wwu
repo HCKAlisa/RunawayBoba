@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9FCA3EC9-EB69-4A1B-9DA8-B4F084E5516E}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="BG" ID="{9FCA3EC9-EB69-4A1B-9DA8-B4F084E5516E}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="BG_MainMenu" ID="{E55EE139-567E-499F-8AC2-A3C7311D643F}" ShortID="494271616">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_MainMenu_ST_LP_HIGH" ID="{4F2F8A40-5797-4D38-A7A2-5F21D8B3DEBB}" ShortID="804047771">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_MainMenu_ST_LP_HIGH" ID="{04E3B46C-FCD9-453A-8717-927EB3B74F6C}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1406.25"/>
+										<Property Name="LoopBegin" Type="Real64" Value="4.375"/>
+										<Property Name="LoopEnd" Type="Real64" Value="59.1022504892368"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_MainMenu_ST_LP_HIGH.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775032539"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_MainMenu_ST_LP_HIGH" ID="{04E3B46C-FCD9-453A-8717-927EB3B74F6C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_MainMenu_ST_LP_LOW" ID="{AE6E59CF-6186-4CD1-9CAB-BB08B2728274}" ShortID="415808707">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_MainMenu_ST_LP_LOW" ID="{863BEBC4-9090-4851-BA21-F49B28806DF9}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="3437.5"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.50880626223092"/>
+										<Property Name="LoopBegin" Type="Real64" Value="3.40397651663405"/>
+										<Property Name="LoopEnd" Type="Real64" Value="58.125"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_MainMenu_ST_LP_LOW.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="808823956"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_MainMenu_ST_LP_LOW" ID="{863BEBC4-9090-4851-BA21-F49B28806DF9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="BG_MainMenu_Specs" ID="{217114B6-D267-43F4-B7F1-845E6E5B3295}" ShortID="629178854">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>1.5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_MainMenu_Specs_Bubbles_M_01" ID="{4CA3CAE2-35C8-4065-B2A5-0E4CCBDB3111}" ShortID="253908687">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_MainMenu_Specs_Bubbles_M_01" ID="{A729D190-66D6-4553-BA9F-85530A3CA846}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_MainMenu_Specs_Bubbles_M_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="595347033"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_MainMenu_Specs_Bubbles_M_01" ID="{A729D190-66D6-4553-BA9F-85530A3CA846}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_MainMenu_Specs_Bubbles_M_02" ID="{87E4DF57-44BD-4119-8F87-72BC08E5958D}" ShortID="755380494">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_MainMenu_Specs_Bubbles_M_02" ID="{2A80909A-851E-4D17-AA2D-C14C9D2C7528}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_MainMenu_Specs_Bubbles_M_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="379829828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_MainMenu_Specs_Bubbles_M_02" ID="{2A80909A-851E-4D17-AA2D-C14C9D2C7528}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_MainMenu_Specs_Bubbles_M_03" ID="{E82F72AF-F991-4069-9F65-088EADA60A6D}" ShortID="193303784">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_MainMenu_Specs_Bubbles_M_03" ID="{4354A2BC-9FBC-4D62-8ACC-CBBDCD70DF26}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_MainMenu_Specs_Bubbles_M_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017348083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_MainMenu_Specs_Bubbles_M_03" ID="{4354A2BC-9FBC-4D62-8ACC-CBBDCD70DF26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_MainMenu_Specs_Bubbles_M_04" ID="{BE14E76E-B97C-49D7-99F9-AA384F31C76E}" ShortID="27612670">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_MainMenu_Specs_Bubbles_M_04" ID="{CC9623BC-6045-4414-977A-D1CCCFFB7224}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_MainMenu_Specs_Bubbles_M_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="441957696"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_MainMenu_Specs_Bubbles_M_04" ID="{CC9623BC-6045-4414-977A-D1CCCFFB7224}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="BG_Kitchen" ID="{9A31EFD4-9411-46DE-B495-6CB14C598846}" ShortID="32759389">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2523041-BD66-4172-8BEC-F05EF5A30923}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EABD6-E6C6-442D-8777-89741A5AF087}"/>
+						</Reference>
+					</ReferenceList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

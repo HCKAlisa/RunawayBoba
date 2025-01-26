@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{A54D8F8B-C535-46EE-9A72-22932DFB583F}" PersistMode="Standalone">
 			<ChildrenList>
 				<AudioDevice Name="System" ID="{FDDE4CB2-1B5C-4762-85F6-915852562EDE}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
+				<AudioDevice Name="No_Output" ID="{BA3DA9DD-034B-4851-AADE-E324C085E4EC}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioDevices>

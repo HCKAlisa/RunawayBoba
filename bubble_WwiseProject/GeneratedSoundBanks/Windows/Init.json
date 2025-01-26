@@ -20,7 +20,7 @@
        "Id": "2317455096",
        "Name": "No_Output",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
-       "GUID": "{7BCA4FAC-94FA-49A6-8AC1-7AA765C42C26}",
+       "GUID": "{BA3DA9DD-034B-4851-AADE-E324C085E4EC}",
        "LibName": "No Output",
        "LibId": "11862023"
       },
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{539C21D9-D670-9002-C696-DB411B194F65}"
+  "FileHash": "{AB20B832-3DC1-3E7A-E482-6973C24FC14C}"
  }
 }

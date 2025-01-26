@@ -10,38 +10,24 @@
     "Type": "User",
     "GUID": "{7C568391-4521-467D-B527-897AD4AE6582}",
     "Language": "SFX",
-    "Hash": "{926E935C-446E-1994-87CE-DD3E9A19A421}",
+    "Hash": "{8F374ED3-30E3-9321-FCA7-1E8364B61B62}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSB",
     "ShortName": "TestSB",
     "Path": "TestSB.bnk",
-    "Media": [
-     {
-      "Id": "635918534",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "BG Footsteps Dirt.wav",
-      "CachePath": "B9/{B906D810-D0B0-51AF-B12C-00E9582894DA}.wem"
-     }
-    ],
     "Events": [
      {
       "Id": "576110586",
       "Name": "Test1",
       "ObjectPath": "\\Events\\Default Work Unit\\Test1",
       "GUID": "{8AF38BE1-F67C-4191-A7CE-91F67CCAB2A8}",
+      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "94.346664",
-      "DurationMax": "94.346664",
-      "MediaRefs": [
-       {
-        "Id": "635918534"
-       }
-      ]
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{96F535CF-7274-0023-070B-8E7BBFFC72C4}"
+  "FileHash": "{EFDF7D24-F1FD-8C14-3E95-918967361BD9}"
  }
 }

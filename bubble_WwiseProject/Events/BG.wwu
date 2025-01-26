@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56D48FC5-910A-4BAD-BB1A-8ABED0045D43}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="BG" ID="{56D48FC5-910A-4BAD-BB1A-8ABED0045D43}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="BG_MainMenu" ID="{D225DE7E-E5DE-4831-B16A-EF55FA011F3D}" ShortID="1063758839">
+					<ChildrenList>
+						<Event Name="Play_BG_MainMenu" ID="{023A3F89-8651-4F24-9120-2B6389129D3A}">
+							<ChildrenList>
+								<Action Name="" ID="{B59F1615-D8C4-44D2-B92E-E8015F22E0DF}" ShortID="790239810">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG_MainMenu" ID="{E55EE139-567E-499F-8AC2-A3C7311D643F}" WorkUnitID="{9FCA3EC9-EB69-4A1B-9DA8-B4F084E5516E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_BG_MainMenu" ID="{1E54A4B4-834E-4312-8F18-53EC377DBB40}">
+							<ChildrenList>
+								<Action Name="" ID="{50DF2345-157D-4EB5-81AF-E7D0B585549A}" ShortID="177761816">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG_MainMenu" ID="{E55EE139-567E-499F-8AC2-A3C7311D643F}" WorkUnitID="{9FCA3EC9-EB69-4A1B-9DA8-B4F084E5516E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BG_Kitchen" ID="{5EE672C3-63B9-45AD-AB33-4769266769A8}" ShortID="858857060"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
